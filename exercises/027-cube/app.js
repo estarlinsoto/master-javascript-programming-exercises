@@ -1,4 +1,4 @@
 // Write your function here
 const  cube = (x) =>{
-    return x**
+    return Math.pow(x, 3);
 }

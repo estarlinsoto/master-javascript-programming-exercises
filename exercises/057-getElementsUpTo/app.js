@@ -1,6 +1,8 @@
 function getElementsUpTo(array, n) {
   // your code here
-  
+  let r =  array.slice(0, n)
+ return r;
+
 }
 
 let output = getElementsUpTo(['a', 'b', 'c', 'd', 'e'], 3) 
