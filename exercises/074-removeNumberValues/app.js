@@ -1,6 +1,12 @@
 function removeNumberValues(obj) {
     // your code here
-    
+    for(let key in obj){
+        let x = obj[key];
+        if(obj[key] > -999){
+            delete obj[key];
+        }
+    }
+    return obj;
 }
 
 let obj = {

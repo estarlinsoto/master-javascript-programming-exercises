@@ -1,6 +1,11 @@
 function removeStringValues(obj) {
     // your code here
-    
+    for(let key in obj){
+        if(isNaN(obj[key]) == true){
+            delete obj[key];
+        }
+    }
+    return obj;
 }
 
 let obj = {

@@ -8,10 +8,12 @@ let obj2 = {
 };
 
 function extend(obj1, obj2) {
-    // your code here
-    for(let key in obj2){
-        if(obj1[obj2[key]] === obj2[key]){
-            continue;
-        }else{obj1[obj2[key]]}
-    }
+    // your co  for (let key in obj2) {
+        for(let key in obj2){
+        if (!(key in obj1)) {
+            obj1[key] = obj2[key];
+          }
+        }
+      return obj1;
+    
 }
