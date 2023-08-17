@@ -5,6 +5,7 @@ function computeSummationToN(n) {
   let r = 0;
   
   while(n1 < n2){
+    n1++
     r += n1;
   }
   return r
