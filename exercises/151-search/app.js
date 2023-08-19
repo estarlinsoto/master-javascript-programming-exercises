@@ -1,5 +1,7 @@
 function search(array, value) {
   // your code here
+
+  
   
 }
 
